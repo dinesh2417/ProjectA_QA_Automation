@@ -17,6 +17,7 @@ Hybrid framework with Page Object Model design  pattern
     * Allure binary is available under 'https://github.com/allure-framework/allure2/releases'
 * Firefox should be installed and path should be updated in selenium-framework.properties
 * Chrome driver will be handled by BrowserBinaryManager and no need of chromedriver.exe
+* Web Application should be up and running (http://localhost:3000/)
  
 ## How to run
 There are several ways to run the test:<br/>
