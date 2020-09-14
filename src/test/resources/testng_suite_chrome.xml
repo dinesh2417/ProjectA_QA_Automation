@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ProjectA Web Application Test suite in chrome browser">
+    <listeners>
+        <listener class-name="com.projecta.automation.common.report.ExtentReport"/>
+        <listener class-name="com.projecta.automation.common.listener.TestListener"/>
+    </listeners>
+    <test name="HomePageTest in Chrome browser">
+        <parameter name = "browser" value="chrome"/>
+        <classes>
+            <class name="com.projecta.automation.ui.homepagetests.HomePageTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

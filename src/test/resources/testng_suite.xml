@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ProjectA Web Application Test suite in all browser">
+        <suite-files>
+            <suite-file path="testng_suite_chrome.xml" />
+            <suite-file path="testng_suite_firefox.xml" />
+        </suite-files>
+</suite>
