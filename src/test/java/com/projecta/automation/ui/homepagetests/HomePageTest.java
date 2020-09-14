@@ -38,7 +38,7 @@ public class HomePageTest extends TestBase {
     @Severity(SeverityLevel.BLOCKER)
     @Description("verify search git user repo list function with valid username")
     @Story("TC_UI_HP_S02_P01 & TC_UI_HP_S02_P02")
-    public void testSearchGitUserRepoSuccess(String username) throws Exception {
+    public void testSearchGitHubUserRepoSuccess(String username) throws Exception {
 
         homePage.enterUserName(username);
         homePage.clickGo();
@@ -66,7 +66,7 @@ public class HomePageTest extends TestBase {
     @Severity(SeverityLevel.CRITICAL)
     @Description("verify search git user repo list function with invalid username")
     @Story("TC_UI_HP_S03_N01")
-    public void testSearchGitUserRepoFailure(String username) throws Exception {
+    public void testSearchGitHubUserRepoFailure(String username) throws Exception {
 
         homePage.enterUserName(username);
         homePage.clickGo();
